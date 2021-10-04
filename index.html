@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Meeting Notes Page
+        </title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/jpg" href="/profile-pic.jpg"/>
+    </head>
+    <body>
+        <header>
+            <h1>First Meeting of CSE 110</h1>
+            <h2>Brainstorming</h2> 
+            <h3>10/02/21</h3>
+        </header>
+        <section>
+            <details>
+                <summary>What are minute meeting notes</summary>
+                <p><b>Minute meeting notes</b> are there so anybody who missed the meeting can catch up on notes <br>
+                    <strong>OR</strong> look back at anything that was missed</p>
+            </details>
+        </section>
+        <hr>
+        <main>
+            <div className="attendance-list">
+                    <h3>Attendance List</h3>
+                    <ul>
+                        <li>Mikel Arteta</li>
+                        <li>Bukayo Saka</li>
+                        <li>Emile Smith-Rowe</li>
+                        <li>Martin Odegaard</li>
+                    </ul>
+            </div>
+            <hr>
+            <div className="agenda">
+                <h3>Agenda</h3>
+                <ol>
+                    <li>Recap prerequisites for class</li>
+                    <li>Go over unfinished and new business</li>
+                </ol>
+            </div>
+            <hr>
+            <div className="unfinished-business">
+                <h3>Unfinished Business from Last Meeting</h3>
+                <span>
+                    <ol>
+                        <li>Finish survey asking members what skills they are comfortable with</li>
+                        <li>Organize the best times for everyone for meeting</li>
+                    </ol>
+                </span>
+            </div>
+            <hr>
+            <div className="new-business">
+                <h3>New Business</h3>
+                <ol>
+                    <li>Assign tasks for <em>each</em> team member</li>
+                    <li>Go over <i>quarterly and project</i> goals</li>
+                </ol>
+            </div>
+            <hr>
+            <div className="images-videos">
+                <h3>Images, Audio, and Videos</h3>
+                <img src="whiteboard-content.png" alt="whiteboard-content"/>
+                <audio controls>
+                    <source src="CSE110Lab2Video.mov">
+                </audio>
+                <video width="320" height="240" controls>
+                    <source src="CSE110Lab2Video.mov">
+                </video>
+            </div>
+        </main>
+        <footer>
+            <form>
+                <fieldset>
+                    <textarea name="header" cols="50">Submit Feedback Survey About Notes</textarea><br>
+                    <input type="checkbox" id="read">
+                    <label for="read">Read all notes</label><br>
+                    <input type="radio" id="like">
+                    <label for="like">Did you like the notes</label><br>
+                    <label for="change">Any changes you would make to notes</label><br>
+                    <input type="text" id="change"><br>
+                    <label for="date">Date</label><br>
+                    <input type="date" id="date"><br>
+                    <label for="names">Name</label><br>
+                    <input list="names" name="name">
+                    <datalist id="names">
+                      <option value="Mikel Arteta">
+                      <option value="Bukayo Saka">
+                      <option value="Emile Smith-Rowe">
+                      <option value="Martin Odegaard">
+                    </datalist><br>
+                    <label for="times">Choose a day</label><br>
+                    <select id="times" name="times">
+                        <option value="monday">Monday</option>
+                        <option value="wednesday">Wednesday</option>
+                        <option value="thursday">Thursday</option>
+                    </select><br>
+                    <input type="submit" value="Submit">
+                    <button type="button">No Click</button>
+                </fieldset>
+            </form>
+            <nav>
+                <a href="https://canvas.ucsd.edu/courses/30736/assignments/361772">Link to Lab</a>
+                <a href="https://github.com/nvanny/Lab2">Link to repo</a>
+            </nav>
+        </footer>
+    </body>
+</html>
