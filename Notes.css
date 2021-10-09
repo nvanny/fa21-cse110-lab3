@@ -1,3 +1,4 @@
+/* initial css setup for crucial elements */
 hr {
     background-color: rgb(0, 102, 255);
     padding-bottom: 5px;
@@ -15,6 +16,7 @@ h2, h3 {
     margin-left: 1px;
 }
 
+/* testing out the different combinator features */
 details > summary {
     color: purple;
 }
@@ -31,6 +33,7 @@ h3.unfinished {
     color: teal;
 }
 
+/* creating the bulk of my css div classes where I will specify css that I want */
 .agenda {
     text-decoration: underline;
     text-align: center;
@@ -62,6 +65,7 @@ h3.unfinished {
     position: relative;
 }
 
+/* my particular favorite since it does something different, creating a flexbox */
 .images {
     display: flex;
     flex-direction: row-reverse;
@@ -76,6 +80,7 @@ h3.unfinished {
     padding: 3px 3px 3px 3px;
 }
 
+/* in mobile format we want to display in a more column fashion to accomodate */
 @media (max-width:800px) {
     .images {
         flex-direction: column-reverse;
@@ -90,6 +95,8 @@ h3.unfinished {
     position: static;
     margin: auto;
 }
+
+/* playing around with different attribute and pseudo states */
 
 a:hover {
     color: 'pink';
