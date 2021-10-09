@@ -98,7 +98,7 @@ h3.unfinished {
 
 /* playing around with different attribute and pseudo states */
 
-a:hover {
+h3:hover {
     color: 'pink';
     cursor: pointer;
 }
