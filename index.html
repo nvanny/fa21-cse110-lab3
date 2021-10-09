@@ -6,8 +6,16 @@
         </title>
         <meta charset="utf-8">
         <link rel="icon" type="image/jpg" href="/profile-pic.jpg"/>
+        <link rel="stylesheet" href="Notes.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     </head>
-    <body>
+    <style>
+        h1 {
+            color: red;
+            font-family: "Sofia", sans-serif;
+        }
+    </style>
+    <body id="background">
         <header>
             <h1>First Meeting of CSE 110</h1>
             <h2>Brainstorming</h2> 
@@ -16,23 +24,23 @@
         <section>
             <details>
                 <summary>What are minute meeting notes</summary>
-                <p><b>Minute meeting notes</b> are there so anybody who missed the meeting can catch up on notes <br>
+                <p style="text-align: center;"><b>Minute meeting notes</b> are there so anybody who missed the meeting can catch up on notes <br>
                     <strong>OR</strong> look back at anything that was missed</p>
             </details>
         </section>
         <hr>
         <main>
             <div>
-                    <h3>Attendance List</h3>
-                    <ul>
-                        <li>Mikel Arteta</li>
-                        <li>Bukayo Saka</li>
-                        <li>Emile Smith-Rowe</li>
-                        <li>Martin Odegaard</li>
-                    </ul>
+                <h3>Attendance List</h3>
+                <ul>
+                    <li>Mikel Arteta</li>
+                    <li>Bukayo Saka</li>
+                    <li>Emile Smith-Rowe</li>
+                    <li>Martin Odegaard</li>
+                </ul>
             </div>
             <hr>
-            <div>
+            <div class="agenda">
                 <h3>Agenda</h3>
                 <ol>
                     <li>Recap prerequisites for class</li>
@@ -40,7 +48,7 @@
                 </ol>
             </div>
             <hr>
-            <div>
+            <div class="unfinished">
                 <h3>Unfinished Business from Last Meeting</h3>
                 <ol>
                     <li>Finish survey asking members what skills they are comfortable with</li>
@@ -48,7 +56,7 @@
                 </ol>
             </div>
             <hr>
-            <div>
+            <div class="new">
                 <h3>New Business</h3>
                 <ol>
                     <li>Assign tasks for <em>each</em> team member</li>
@@ -56,8 +64,8 @@
                 </ol>
             </div>
             <hr>
-            <div>
-                <h3>Images, Audio, and Videos</h3>
+            <h3>Images, Audio, and Videos</h3>
+            <div class="images">
                 <img src="whiteboard-content.png" alt="whiteboard-content"/>
                 <audio controls>
                     <source src="CSE110Lab2Video.mov">
@@ -97,7 +105,7 @@
                     <button type="button">No Click</button>
                 </fieldset>
             </form>
-            <nav>
+            <nav class="links">
                 <a href="https://canvas.ucsd.edu/courses/30736/assignments/361772">Link to Lab</a>
                 <a href="https://github.com/nvanny/Lab2">Link to repo</a>
             </nav>
