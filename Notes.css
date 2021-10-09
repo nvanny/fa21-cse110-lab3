@@ -98,13 +98,13 @@ h3.unfinished {
 
 /* playing around with different attribute and pseudo states */
 
-h3:hover {
-    color: 'pink';
+a:hover {
+    color: pink;
     cursor: pointer;
 }
 
 a[href] {
-    color: 'blue';
+    color: blue;
 }
 
 video:active {
